@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta name="author" content="Valeria Taglioni Chica">
+    <meta name="description" content="App with ToDo Lists">
+    <title>ToDo App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+<body>
+    <div class="heading">
+      <h1>To-Do List:</h1>
+    </div>
+
+    <div class="main" id="main">
+      <div>
+        <form method="POST" id="form">
+          <button id="addBtn" style="display: block;">Add</button>
+          <input type="text" class="input" id="input" placeholder="Create New Item in To-Do List" required>
+        </form>
+      </div>
+    </div><br><br>
+
+    <div class="listDiv">
+      <ul id="list" class="list"></ul>
+    </div>
+    <script src="./javascript.js" async defer></script>
+  </body>
+</html>
